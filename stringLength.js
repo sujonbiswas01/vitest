@@ -1,0 +1,1 @@
+export const returrnStrlength = (str)=>str.length;
