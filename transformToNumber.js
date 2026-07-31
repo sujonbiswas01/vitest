@@ -1,4 +1,3 @@
-export function transformToNumber(value){
- return NaN ;
-    return +value;
-}
+export function transformToNumber(value) {
+    return Number(value);
+  }
