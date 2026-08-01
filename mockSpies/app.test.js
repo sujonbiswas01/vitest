@@ -7,4 +7,4 @@ describe("generateToken()",()=>{
         generateToken(logger)
         expect(logger).toHaveBeenCalled()
     })
-})
+});
