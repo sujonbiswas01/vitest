@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        :root {
+            --primary-color: #212529;
+            --secondary-color: #f8f9fa;
+            --accent-color: #007bff;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            --font-primary: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: var(--secondary-color);
+            color: var(--primary-color);
+            font-family: var(--font-primary);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #title {
+            background: #fff;
+            padding: 2rem 4rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            font-size: 2.5rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: var(--accent-color);
+            border: 1px solid #e3e6ea;
+            transition: box-shadow 0.2s;
+            text-align: center;
+        }
+
+        #title:hover {
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+    </style>
+</head>
+<body>
+    <div id="title">
+        
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+</html>
