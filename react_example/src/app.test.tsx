@@ -4,6 +4,7 @@ import {it,test,expect} from 'vitest'
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText("sujon biswas");
+  const linkElement = screen.getByText("rajon biswas");
   expect(linkElement).toBeInTheDocument();
 });
+
